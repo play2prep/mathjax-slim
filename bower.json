@@ -4,7 +4,7 @@
   "ignore": [
     "README.md"
   ],
-  "main": ["**/*"],
+  "main": ["MathJax.js"],
   "version": "2.5.1",
   "_originalSource": "https://github.com/mathjax/MathJax/tree/2.5.1"
 }
