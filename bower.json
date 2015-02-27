@@ -4,7 +4,15 @@
   "ignore": [
     "README.md"
   ],
-  "main": "./MathJax.js",
+  "main": [
+    "MathJax.js"
+  ],
+  "keywords": [
+    "angular",
+    "mathjax",
+    "slim",
+    "latex"
+  ],
   "version": "2.5.1",
   "_originalSource": "https://github.com/mathjax/MathJax/tree/2.5.1"
 }
