@@ -5,7 +5,7 @@
     "README.md"
   ],
   "main": [
-    "MathJax.js"
+    "dist/MathJax.js"
   ],
   "keywords": [
     "angular",
