@@ -20,5 +20,5 @@ Includes the STIX font (Regular variant only) and works well with the following 
 Because the js files reside in dist/ use the following in bower.json exportOverride if necessary:
 
 <pre>"mathjax-slim": {
-    "/": "."
+    "/": "dist"
 }</pre>
