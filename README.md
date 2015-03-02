@@ -5,16 +5,8 @@ Includes the STIX font (Regular variant only) and works well with the following 
 
 <pre>MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'],['\\(','\\)']]},
-  jax: ['input/TeX','output/HTML-CSS', 'output/CommonHTML'],
-  extensions: ['tex2jax.js','MathMenu.js','MathZoom.js', 'CHTML-preview.js'],
-  TeX: {
-    extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js']
-  },
-  MatchWebFonts: {
-    matchFor: {
-      'HTML-CSS': true
-    }
-  }
+  jax: ['input/TeX', 'output/HTML-CSS'],
+  extensions: ['tex2jax.js']
 });</pre>
 
 Because the js files reside in dist/ use the following in bower.json exportOverride if necessary:
