@@ -7,13 +7,14 @@ Includes the STIX font (Regular variant only) and works well with the following 
     window.MathJax.Hub.Config({
       tex2jax: {
         inlineMath: [
-          ['$', '$'],
           ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$']
         ]
       },
-      jax: ['input/TeX', 'input/MathML', 'output/HTML-CSS'],
-      extensions: ['tex2jax.js', 'mml2jax.js'],
-      messageStyle: 'none'
+      jax: ['input/TeX', 'input/MathML', 'output/SVG'],
+      extensions: ['tex2jax.js', 'mml2jax.js']
     });
   }</pre>
 
