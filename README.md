@@ -13,7 +13,7 @@ Includes the STIX font (Regular variant only) and works well with the following 
           ['$$', '$$']
         ]
       },
-      jax: ['input/TeX', 'input/MathML', 'output/SVG'],
+      jax: ['input/TeX', 'input/MathML', 'output/CommonHTML', 'output/HTML-CSS'],
       extensions: ['tex2jax.js', 'mml2jax.js']
     });
   }</pre>
